@@ -4,5 +4,6 @@ metadata:
     name: myapp
 data:
     index.html: |
+       Hello Human - 
        This is a custom app! <p>
        Stephen Persky plagiarized the code!
