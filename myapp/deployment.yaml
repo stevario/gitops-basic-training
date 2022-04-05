@@ -14,10 +14,10 @@ spec:
     spec:
         containers:
         - name: nginx
-            image: nginx
-            volumeMounts: 
-            - name: config-volume 
-                mountPath: /usr/share/nginx/html 
+          image: nginx
+          volumeMounts: 
+          - name: config-volume 
+            mountPath: /usr/share/nginx/html 
         volumes: 
-            - name: config-volume 
-            configMap: name: myapp
+        - name: config-volume 
+          configMap: name: myapp
